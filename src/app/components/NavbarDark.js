@@ -25,12 +25,12 @@ export default function NavbarDark() {
                             navbarScroll
                         >
                             <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/about">About</Nav.Link>
+                            <Nav.Link href="/about">Sobre</Nav.Link>
                         </Nav>
                         <Form className="d-flex">
                             <Form.Control
                                 type="search"
-                                placeholder="Search"
+                                placeholder="Pesquisar"
                                 className="me-2"
                                 aria-label="Search"
                                 value={searchTerm}
@@ -38,7 +38,7 @@ export default function NavbarDark() {
                             />
                             <Button variant="light">
                                 <Link className='text-decoration-none text-black' href={`${searchTerm}`}>
-                                    Search
+                                    Pesquisar
                                 </Link>
                             </Button>
                         </Form>
