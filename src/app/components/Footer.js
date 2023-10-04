@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <>
             <div className='footer'>
-                Created by Henrique, Mário and Lucas
+                Created by Henrique, Mario and Lucas
             </div>
         </>
     )

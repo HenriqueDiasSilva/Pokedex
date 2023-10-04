@@ -10,7 +10,7 @@ export default function CardPokemonHome({ pokemon }) {
             <Card style={{ width: '15rem' }}>
                 <Card.Body className='text-center text-capitalize'>
                     <Card.Title>{pokemon.name}</Card.Title>
-                    <Button variant="dark">
+                    <Button variant="danger">
                         <Link className='text-decoration-none text-white' href={`${pokemon.name}`}>Detalhes</Link>
                     </Button>
                 </Card.Body>
